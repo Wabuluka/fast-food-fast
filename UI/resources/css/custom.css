@@ -3,11 +3,18 @@ html, body{
 	padding: 0;
 }
 html {
+
   position: relative;
   min-height: 100%;
 }
 body {
   margin-bottom: 60px;
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  	margin-bottom: 60px;
 }
 nav{
 	margin-top: -15px;
@@ -27,6 +34,14 @@ ul li a{
 	color: #fff;
 	text-decoration: none;
 
+}
+header{
+	margin-top: -17px;
+	height: 400px;
+	background: #fff000;
+}
+header .container p{
+	padding-top: 20px; 
 }
 .container{
 	width: 80%;
